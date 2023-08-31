@@ -1,2 +1,5 @@
 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
-abcded
+ git add .
+ git status
+ git commit -m "comment"
+ git push origin main
