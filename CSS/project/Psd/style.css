@@ -37,6 +37,7 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 20px;
+  text-decoration: none;
 }
 .section {
   padding-left: 75px;
@@ -63,66 +64,66 @@ a {
   font-family: "Montserrat";
   text-align: center;
 }
-.container2{
+.container2 {
   background-color: #f6eedf;
   height: 660px;
 }
-.text2{
+.text2 {
   position: relative;
 }
-.food1{
+.food1 {
   position: absolute;
   top: 60px;
   right: 70px;
 }
-.food2{
+.food2 {
   position: absolute;
   top: 530px;
   left: 400px;
 }
-.food3{
+.food3 {
   position: absolute;
   top: 250px;
   left: 0;
 }
-.food4{
+.food4 {
   position: absolute;
   top: 100px;
   left: 200px;
 }
-.food5{
+.food5 {
   position: absolute;
   top: 400px;
   right: 0;
 }
-.food6{
+.food6 {
   position: absolute;
   top: 550px;
   right: 300px;
 }
-.text3{
+.text3 {
   padding-top: 70px;
 }
-.head2{
+.head2 {
   font-size: 50px;
   color: #f64b3c;
   font-weight: 700;
   font-family: "Archivo";
   text-align: center;
 }
-.paragraph{
+.paragraph {
   font-size: 21px;
   color: #f64b3c;
   font-weight: 400;
   font-family: "Montserrat";
   text-align: center;
 }
-.img2{
+.img2 {
   display: flex;
   gap: 180px;
   padding-top: 40px;
 }
-.founder{
+.founder {
   height: 220px;
   width: 200px;
   border: 1px solid rgb(243, 236, 236);
@@ -130,7 +131,7 @@ a {
   border-radius: 50%;
   margin-left: 200px;
 }
-.founderh{
+.founderh {
   font-size: 25px;
   text-transform: uppercase;
   color: #f64b3c;
@@ -139,21 +140,21 @@ a {
   text-align: center;
   margin-top: 230px;
 }
-.founderp{
+.founderp {
   font-size: 18px;
   color: #f64b3c;
   font-weight: 600;
   font-family: "Nunito";
   text-align: center;
 }
-.founder1{
+.founder1 {
   height: 220px;
   width: 200px;
   border: 1px solid rgb(243, 236, 236);
   background: url(../Psd/founder2.png) center center;
   border-radius: 50%;
 }
-.founderh1{
+.founderh1 {
   font-size: 24px;
   text-transform: uppercase;
   color: #f64b3c;
@@ -162,21 +163,21 @@ a {
   text-align: center;
   margin-top: 230px;
 }
-.founderp1{
+.founderp1 {
   font-size: 18px;
   color: #f64b3c;
   font-weight: 600;
   font-family: "Nunito";
   text-align: center;
 }
-.founder2{
+.founder2 {
   height: 220px;
   width: 200px;
   border: 1px solid rgb(243, 236, 236);
   background: url(../Psd/founder3.png) center center;
   border-radius: 50%;
 }
-.founderh2{
+.founderh2 {
   font-size: 22px;
   text-transform: uppercase;
   color: #f64b3c;
@@ -185,44 +186,44 @@ a {
   text-align: center;
   margin-top: 230px;
 }
-.founderp2{
+.founderp2 {
   font-size: 18px;
   color: #f64b3c;
   font-weight: 600;
   font-family: "Nunito";
   text-align: center;
 }
-.container3{
+.container3 {
   background-color: #f64b3c;
   height: 660px;
 }
-.main{
+.main {
   display: flex;
   justify-content: space-around;
   padding-top: 110px;
 }
-.png{
-  height: 450px;
-  width: 450px;
+.png {
+  height: 430px;
+  width: 430px;
   background: url(../Psd/burger.png) center center;
   border-radius: 50%;
   /* margin: 110px;
   margin-left: 200px; */
 }
-.burger2{
+.burger2 {
   font-size: 65px;
   color: #ffffff;
   font-weight: 700;
   font-family: sans-serif;
   padding-top: 110px;
 }
-.paragraph2{
+.paragraph2 {
   font-size: 25px;
   color: #ffffff;
   font-weight: 400;
   font-family: "Nunito";
 }
-.order{
+.order {
   font-size: 25px;
   text-transform: uppercase;
   color: #f64b3c;
@@ -233,4 +234,252 @@ a {
   height: 65px;
   border-radius: 32px;
   background-color: #ffffff;
+}
+.cotainer4 {
+  height: 660px;
+  background-color: #f6eedf;
+}
+.content5 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.ssi {
+  padding-top: 75px;
+}
+.heed {
+  font-size: 65px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.heed2 {
+  font-size: 24px;
+  color: #f64b3c;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.heed3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  width: 322px;
+  height: 65px;
+  border-radius: 32px;
+  background-color: #f64b3c;
+}
+.ssi2 {
+  background: url(../Psd/burger.png) center center;
+  height: 430px;
+  width: 430px;
+  border-radius: 50%;
+}
+.content4 {
+  position: relative;
+}
+.food11 {
+  position: absolute;
+  top: 500px;
+  right: 650px;
+}
+.food12 {
+  position: absolute;
+  top: 88px;
+  right: 35px;
+}
+.food13 {
+  position: absolute;
+  top: 450px;
+  right: 30px;
+}
+.food14 {
+  position: absolute;
+  top: 550px;
+  left: 120px;
+}
+.food15 {
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+.food16 {
+  position: absolute;
+  top: 0;
+  right: 550px;
+}
+.container5 {
+  background-color: #f64b3c;
+  height: 660px;
+}
+.content6 {
+  text-align: center;
+  padding-top: 70px;
+}
+.statatic {
+  font-size: 52px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+}
+.statatic2 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: center;
+}
+.circle {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+.circle1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 155px;
+  border: 5px solid #ffffff;
+  align-items: center;
+}
+.C1 {
+  font-size: 92px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+  padding-top: 50px;
+}
+.P1 {
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+}
+.container6 {
+  height: 660px;
+  background-color: #f6eedf;
+}
+.content7 {
+  position: relative;
+}
+.food21 {
+  position: absolute;
+  top: 500px;
+}
+.food22 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.food23 {
+  position: absolute;
+  top: 170px;
+  left: 0;
+}
+.food26 {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+.food25 {
+  position: absolute;
+  top: 450px;
+  right: 0;
+}
+.popular {
+  padding-top: 85px;
+}
+.popular1 {
+  font-size: 65px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.box1 {
+  width: 236px;
+  height: 355px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.box-h {
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 25px;
+}
+.pngsanju {
+  padding-left: 67px;
+}
+.box-p {
+  font-size: 23px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+}
+.box-p1 {
+  font-size: 15px;
+  color: #f64b3c;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: center;
+}
+.box-b {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  width: 235px;
+  height: 39px;
+  border-radius: 29px;
+  background-color: #f64b3c;
+}
+.box2 {
+  width: 236px;
+  height: 355px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.box3 {
+  width: 236px;
+  height: 355px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.container7 {
+  height: 660px;
+  background: url(../Psd/background.png) no-repeat center;
+  background-color: #eb2c1a;
+  /* opacity: 0.7; */
+}
+.bg-1 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 220px;
+}
+.bg-2 {
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: sans-serif;
+  text-align: center;
 }

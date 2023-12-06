@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 700px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+  background-color: #21243d;
+  background: url(../psd3/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png center center no-repeat)
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 85px;
+}
+a {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+.title {
+  height: 575px;
+  padding: 60px;
+  padding-top: 120px;
+}
+h1 {
+  font-size: 125px;
+  color: #181717;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.paragraph {
+  font-size: 30px;
+  color: #7a7373;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.buttonsushi {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  width: 322px;
+  height: 65px;
+  border-radius: 33px;
+  background-color: #21243d;
+}
+.content1 {
+  background-color: #21243d;
+  height: 700px;
+}
+.context{
+  padding-top: 50px;
+}
+.heade1{
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: center;
+}
+.paragraph1{
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: center;
+}
+.dish{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  text-align: center;
+}
+.imgdish{
+  border-radius: 50%;
+}
+h3{
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-top: 13px;
+}
+.p1{
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-top: 20px;
+}

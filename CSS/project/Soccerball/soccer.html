@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer ball</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .col1-50{
+            padding: 80px;
+            background-color: white;
+        }
+        .input{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .hello-h{
+            font-size: 30px;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+        .hello-p{
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        .hello-h1{
+            font-size: 30px;
+            font-family: sans-serif;
+            text-align: center;
+            font-weight: 800;
+        }
+        .hello-p1{
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .button50-1{
+            height: 40px;
+            background-color: rgb(58, 107, 58) ;
+            color: white;
+            border-radius: 10px;
+        }
+        input{
+            font-size: 15px;
+            border-radius: 3px;
+            height: 35px;
+            padding: 18px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(146, 140, 140);
+        }
+        .button50-2{
+            width: 100px;
+            height: 35px;
+            border-radius: 15px;
+            /* margin-left: 60px; */
+            background-color: rgb(240, 243, 240) ;
+        }
+        .sign-p{
+            text-align: center;
+        }
+        .icon{
+            padding-left: 90px;
+        }
+        .col2-50{
+
+            /* width: 400px;
+            height: 600px; */
+        }
+        .col50{
+            background-color: rgb(58, 107, 58);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        a{
+            color:  rgb(58, 107, 58);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+        <div class="col1-50">
+            <form action="">
+            <div class="hello">
+                <h3 class="hello-h">Hello!</h3>
+                <p class="hello-p">Please signup to continue</p>
+            </div> <br><br>
+            <div class="input">
+                <div class="input1">
+                    <label for="name">Full name</label> <br>
+                    <input type="text" placeholder="Sanjay sisodia">
+                </div>
+                <div class="input1">
+                    <label for="name">Email adddress</label> <br>
+                    <input type="email" placeholder="sanjaysisodia930@gmail.com">
+                </div>
+                <div class="input1">
+                    <label for="name">Password</label> <br>
+                    <input type="text" placeholder="Password">
+                </div>
+                <div class="input1">
+                    <label for="name">Confirm password</label> <br>
+                    <input type="text" placeholder="Confirm password">
+                </div>
+                    <button class="button50-1">Sign Up</button>
+                    <p class="sign-p">or</p>
+                    <p class="sign-p">Signup with</p>
+                    <div class="icon">
+                    <i class="fa-brands fa-facebook fa-2xl" style="color: #305fb0;"></i>
+                    <i class="fa-brands fa-square-twitter fa-2xl" style="color: #6398f2;"></i></div>
+                    <p class="sign-p">I'm already a member! <a href="#">Sign in</a></p>
+                </form>
+                </div>
+
+
+
+        <div class="col2-50">
+            <div class="col50">
+            <img src="../Soccerball/download.png" alt="">
+            <h2 class="hello-h1">Soccer Ball</h2>
+            <p class="hello-p1">Already have an account?</p>
+            <button class="button50-2">Sign in</button>
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
