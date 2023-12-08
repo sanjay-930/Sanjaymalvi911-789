@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content1 {
+  background: url(../psd4/images/Header\ Background.png) center center no-repeat;
+  height: 650px;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  /* width: 600px; */
+  padding: 40px 450px;
+  /* padding-left: 500px; */
+
+}
+a {
+  font-size: 17px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
