@@ -13,7 +13,7 @@
         box-sizing: border-box;
     }
     .container{
-        margin: 15px 550px;
+        margin: 15px 500px;
         height: 420px;
         width: 350px;
         border: 1px solid rgb(212, 206, 206);
@@ -22,7 +22,7 @@
     .logo{
         margin: 45px 85px;
     }
-    .input1{
+    #input1{
         width: 280px;
         height: 35px;
         padding: 10px;
@@ -30,7 +30,7 @@
         border: 1px solid rgb(212, 206, 206);
         border-radius: 3px;
     }
-    .input2{
+    #input2{
         width: 280px;
         height: 35px;
         padding: 10px;
@@ -50,6 +50,7 @@
         border-radius: 8px;
         color: white;
         /* padding: 10px; */
+        cursor: pointer;
     }
     .facebook{
         text-align: center;
@@ -64,13 +65,15 @@
         color: #122544;
         font-weight: 700;
         padding-top: 20px;
+        cursor: pointer;
     }
     .para2{
         color: #122544;
         padding-top: 20px;
+        cursor: pointer;
     }
     .container2{
-        margin: 15px 550px;
+        margin: 15px 500px;
         height: 60px;
         width: 350px;
         border: 1px solid rgb(212, 206, 206);
@@ -86,7 +89,7 @@
         text-decoration: none;
     }
     .last2{
-        margin: 15px 550px;
+        margin: 15px 500px;
         height: 120px;
         width: 350px;
         border: 1px solid rgb(212, 206, 206);
@@ -110,6 +113,7 @@
         display: flex;
         gap: 60px;
         padding: 7px;
+        cursor: pointer;
     }
     .line{
         display: flex;
@@ -139,8 +143,11 @@
         <div class="logo">
         <i data-visualcompletion="css-img" aria-label="Instagram" class role="img" style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yM/r/8n91YnfPq0s.png&quot;); background-position: 0px -52px; background-size: auto; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"></i></div>
         <div class="input">
-            <input class="input1" type="text" placeholder="Phone number, username or email address">
-            <input class="input2" type="text" placeholder="Password">
+            <input id="input1" type="text" placeholder="Phone number, username or email address" oninput="handleValidation(this, 'vision1', 'User Name')">
+            <span id="vision1"></span>
+
+            <input id="input2" type="text" placeholder="Password" id="upass" oninput="handleValidation(this, 'vision2', 'Password')">
+            <span id="vision2"></span>
         </div>
         <button class="btn-1">Log in</button>
         <div class="facebook">
@@ -172,6 +179,18 @@
         <p>Microsoft</p>
     </div>
 </div>
+<script>
+    function handleValidation(Sanjay, komik, Ashutosh) {
+        console.log(Sanjay);
+        console.log(komik);
+        console.log(Ashutosh);
+        let userName = document.getElementById("input1").value;
+        console.log(userName);
+        if (userName == "") {
+            document.getElementById(komik).innerText = "Please Enter " + Ashutosh;
+        }
+    }
+</script>
 
 </body>
 </html>
