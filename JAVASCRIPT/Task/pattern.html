@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rectangular Box Pattern</title>
+  <style>
+    .rectangle {
+      width: 50px;
+      height: 30px;
+      background-color: #2ecc71;
+      display: inline-block;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function createRectangularBoxPattern(rows, cols) {
+      for (let i = 0; i < cols; i++) {
+        for (let j = 0; j < rows; j++) {
+          const rectangle = document.createElement('div');
+          rectangle.className = 'rectangle';
+
+          document.body.appendChild(rectangle);
+        }
+        document.body.appendChild(document.createElement('br'));
+      }
+    }
+
+    // Call the function with the desired number of rows and columns
+    createRectangularBoxPattern(4, 6); // You can adjust the number of rows and columns as needed
+  </script>
+</body>
+</html>
